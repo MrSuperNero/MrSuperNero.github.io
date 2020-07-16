@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap");
+@media screen and (max-width: 1023px) {
+  .title {
+    padding: 8% 0 3% 0;
+  }
+  .title h1 {
+    font-size: 3em;
+  }
+  .title p {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    padding: 5% 0 2% 0;
+  }
+  .title h1 {
+    font-size: 6em;
+  }
+  .title p {
+    font-size: 2em;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 1%;
+}
+nav a:hover {
+  color: #b6b6b6;
+}
+
+.title {
+  width: 100%;
+  color: white;
+  background: #4e4e4e;
+  background: radial-gradient(circle, #4e4e4e 0%, #161616 100%);
+}
+.title h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin: 0 0 2% 0;
+}
+.title p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=exercises.css.map */

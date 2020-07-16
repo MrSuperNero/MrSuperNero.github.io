@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap");
+@media screen and (max-width: 1023px) {
+  .container a {
+    font-size: 1em;
+  }
+  .container a:hover {
+    background-color: #d3d2d2;
+    transform: scale(1);
+  }
+  .container a:active {
+    transform: scale(0.9);
+    color: black;
+  }
+  .container a:active:before {
+    background-color: #eeeeee;
+    transform: scale(1, 1);
+  }
+  .container a:before {
+    content: "";
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+  }
+
+  .title h1 {
+    font-size: 3em;
+  }
+  .title p {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container a {
+    font-size: 2em;
+  }
+  .container a:hover {
+    color: black;
+    transform: scale(1);
+  }
+  .container a:hover:before {
+    transform: scale(1, 1);
+  }
+  .container a:active {
+    transform: scale(0.9);
+  }
+  .container a:active:before {
+    background-color: #eeeeee;
+  }
+  .container a:before {
+    content: "";
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+  }
+
+  .title h1 {
+    font-size: 6em;
+  }
+  .title p {
+    font-size: 2em;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 1%;
+}
+nav a:hover {
+  color: #b6b6b6;
+}
+
+.content {
+  background: #4e4e4e;
+  background: radial-gradient(circle, #4e4e4e 0%, #161616 100%);
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.title {
+  padding: 2%;
+  width: 100%;
+  color: white;
+}
+.title h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin: 0 0 2% 0;
+}
+.title p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 2%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.container a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  padding: 1% 3% 1% 3%;
+  background-color: transparent;
+  border: transparent;
+  transition-duration: 300ms;
+}
+.container a:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=exercises.css.map */

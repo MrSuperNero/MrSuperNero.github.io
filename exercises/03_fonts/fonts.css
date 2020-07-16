@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap");
+
+@media screen and (max-width: 1023px) {
+    .title {
+        padding: 8% 0 3% 0;
+    }
+    .title h1 {
+        font-size: 3em;
+    }
+    .title p {
+        font-size: 1em;
+    }
+    .fontA {
+        font-size: 1.5em;
+    }
+    .fontB {
+        font-size: 1.5em;
+    }
+    .fontC {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        padding: 5% 0 2% 0;
+    }
+    .title h1 {
+        font-size: 6em;
+    }
+    .title p {
+        font-size: 2em;
+    }
+    .fontA {
+        font-size: 2em;
+    }
+    .fontB {
+        font-size: 2em;
+    }
+    .fontC {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .font {
+        flex-direction: row;
+    }
+
+    .fontName {
+        text-align: right;
+    }
+
+    .specimen {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 1349px) {
+    .font {
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding-top: 2%;
+    }
+
+    .fontName {
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+
+    .specimen {
+        justify-content: space-around;
+    }
+    
+    .specimen > * {
+        padding: 2%;
+    }
+}
+
+@font-face {
+    font-family: 'Modak';
+    src: url(Modak-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze-Gotisch';
+    src: url(GrenzeGotisch-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Subrayada';
+    src: url(MontserratSubrayada-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  position: fixed;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 1%;
+}
+nav a:hover {
+  color: #b6b6b6;
+}
+
+.title {
+  padding: 5% 0 2% 0;
+  color: white;
+  background: #4e4e4e;
+  background: radial-gradient(circle, #4e4e4e 0%, #161616 100%);
+}
+.title h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5em;
+  text-align: center;
+}
+.title p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.font {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fontName {
+    width: 40%;
+}
+
+.fontName a {
+    text-decoration: none;
+    color: black;
+}
+
+.fontName a:hover {
+    color: blue;
+}
+
+.specimen {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.specimen > * {
+    padding: 1%;
+}
+
+.fontA {
+    font-family: 'Modak', sans-serif;
+    margin-top: 2%;
+}
+
+.fontB {
+    font-family: 'Grenze-Gotisch', serif;
+    margin-top: 2%;
+}
+
+.fontC {
+    font-family: 'Montserrat-Subrayada', sans-serif;
+    margin-top: 2%;
+}
+
+/*# sourceMappingURL=index.css.map */
