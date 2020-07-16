@@ -1,2 +1,2 @@
-# art167_site
+# neo-art167
 Website of Art167 Class Site
