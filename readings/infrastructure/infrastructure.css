@@ -45,7 +45,7 @@ nav a:hover {
 .content {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -60,7 +60,16 @@ nav a:hover {
 .content figcaption {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content figcaption h6 {
+  font-size: 1.5em;
+}
+.content figcaption p {
   padding: 10%;
+  margin-top: 10%;
 }
 
 /*# sourceMappingURL=infrastructure.css.map */
