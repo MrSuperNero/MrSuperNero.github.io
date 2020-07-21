@@ -51,6 +51,11 @@ nav a:hover {
 .content figure {
   padding: 2%;
 }
+.content figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 .content figcaption {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
