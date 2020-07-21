@@ -52,12 +52,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     figure {
         padding: 2%;
 
         img {
-            width: 100%;
+            width: 50%;
             height: auto;
             object-fit: contain;
         }
@@ -66,5 +67,6 @@ nav {
     figcaption {
         font-family: "Open Sans", sans-serif;
         font-size: 1em;
+        padding: 10%;
     }
 }

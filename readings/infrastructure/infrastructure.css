@@ -47,18 +47,20 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .content figure {
   padding: 2%;
 }
 .content figure img {
-  width: 100%;
+  width: 50%;
   height: auto;
   object-fit: contain;
 }
 .content figcaption {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
+  padding: 10%;
 }
 
 /*# sourceMappingURL=infrastructure.css.map */
